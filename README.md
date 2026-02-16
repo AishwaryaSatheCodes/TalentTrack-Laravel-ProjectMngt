@@ -26,7 +26,7 @@ TalentTrack is a fullstack project and task management platform designed to stre
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/talenttrack.git
+   git clone https://github.com/AishwaryaSatheCodes/TalentTrack-Laravel-ProjectMngt
    cd talenttrack
 
 Install dependencies:
@@ -36,7 +36,6 @@ Install dependencies:
 
 Setup .env and run:
 
-    cp .env.example .env
     php artisan key:generate
     php artisan migrate --seed
     npm run dev
@@ -65,3 +64,4 @@ Setup .env and run:
     Notifications and reminders
 
     REST API support
+
