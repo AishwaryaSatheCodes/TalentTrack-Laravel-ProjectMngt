@@ -36,6 +36,7 @@ Install dependencies:
 
 Setup .env and run:
 
+    cp .env.example .env
     php artisan key:generate
     php artisan migrate --seed
     npm run dev
@@ -64,5 +65,6 @@ Setup .env and run:
     Notifications and reminders
 
     REST API support
+
 
 
