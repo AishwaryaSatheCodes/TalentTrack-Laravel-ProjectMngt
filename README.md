@@ -31,6 +31,7 @@ TalentTrack is a fullstack project and task management platform designed to stre
 
 Install dependencies:
 
+    touch database/database.sqlite
     composer install
     npm install
 
@@ -50,7 +51,7 @@ Setup .env and run:
 
     Manager: manager@example.com / 123.321A
 
-    Developer: developer@example.com / 123.321A
+    Developer: aishwarya@example.com / 123.321A
 
 (Add more via DatabaseSeeder if needed.)
 
@@ -65,6 +66,7 @@ Setup .env and run:
     Notifications and reminders
 
     REST API support
+
 
 
 
