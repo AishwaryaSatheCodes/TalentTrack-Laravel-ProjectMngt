@@ -33,7 +33,7 @@ Install dependencies:
 
     touch database/database.sqlite
     composer install
-    npm install
+    npm install --legacy-peer-deps
 
 Setup .env and run:
 
@@ -66,6 +66,7 @@ Setup .env and run:
     Notifications and reminders
 
     REST API support
+
 
 
 
